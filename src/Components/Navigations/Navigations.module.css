@@ -1,0 +1,10 @@
+.nav {
+    grid-area: n;
+    background-color: rgb(78, 136, 133);
+    min-height: 90vh;
+    margin-left: 10px;
+    border-radius: 8px;
+  }
+  .nav a {
+    
+  }

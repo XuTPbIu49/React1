@@ -1,0 +1,29 @@
+.Tabl {
+  font-size: calc(2px + n);
+  background-color: #6674c270;
+  min-height: 92vh;
+  max-width: 14vh;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: flex-start;
+  color: white;
+  margin-left: 10px;
+}
+
+ul li {
+  list-style-type: circle;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  
+}
+
+.Sidebar-logo {
+  height: 5vmin;
+  pointer-events: auto;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .Sidebar-logo {
+    animation: App-logo-spin infinite 5s linear;
+  }
+}

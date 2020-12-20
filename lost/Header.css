@@ -1,0 +1,11 @@
+.Header {
+  flex-direction: column;
+  font-size: calc(2px + 2vmin);
+  background-color: #6674c270;
+  min-height: 100vh;
+  max-width: 100vh;
+  border-radius: 9px;
+   align-items: center;
+  justify-content: center;
+  color: white;
+}
