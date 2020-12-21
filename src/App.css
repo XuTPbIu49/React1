@@ -1,17 +1,22 @@
 .app-gur {
-  display: grid;
-  margin: 0 auto;
-  margin-right: 10px;
+    display: grid;
+    margin: 0 auto;
+    margin-right: 10px;
 
-  grid-template-areas:
+    grid-template-areas:
     "h  h"
     "n  c";
 
-  grid-template-rows: 60px 1fr;
-  grid-template-columns: 2fr 10fr;
-  grid-gap: 10px;
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 2fr 10fr;
+    grid-gap: 10px;
 }
 
+.app-gur-content {
+    grid-area: c;
+    background-color: rgb(217, 228, 240);
+    border-radius: 10px;
+}
 
 
 

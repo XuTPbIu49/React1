@@ -1,9 +1,9 @@
 import React from 'react';
-import style from './Navigations.module.css';
+import s from './Navigations.module.css';
 
 let Navigations = () =>{
     return (
-        <nav className={style.nav}>
+        <nav className={s.nav}>
         <div>
          <a href="">Профиль</a>
         </div>

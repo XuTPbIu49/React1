@@ -1,14 +1,14 @@
 import React from 'react';
-import style from './Post.module.css';
+import s from './Post.module.css';
 
 
 const Post = (props) => {
   return (    
-      <div className={style.item}>
-        <img src='https://lh3.googleusercontent.com/proxy/p_st5ZgKcK95aSGhasMNTBXWDYmX8D-3IJfcOqchIlGgxwHuXC-GqMipxXsIpbjUULwg_9sUbvKCe6J3jEVdQgz0wRN0i4xAdrhOPMbYQVuaRr1IYQIAuVPdxR27yjOCAjBU1hGCW_AiVRnJ9i-dG4jiOIL3iz5sH3ou3k5Cxw'/>
+      <div className={s.item}>
+        <img src='https://lh3.googleusercontent.com/proxy/wizLGTTXL44QJbBCxmpY6d5LsyHyZ7x1oDgdmKa1ihzJRjpf4ZZMW4RlxTGX-A-HZF7VaTStHQkJtTWyt_uv8HuQ5Zvxp2YU1K-HB8ZB-kPuo-Fsen9cOVLQqu53eb6wI4YzGwkkTECJyyEnWqlEYX39lIcPaEZiT3fTXBUPVw'/>
         {props.massage}
         <div>
-          <span>😍Like</span>
+          <span>Like</span> {props.LikesCount}
         </div>
       </div>      
   );

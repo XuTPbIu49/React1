@@ -1,20 +1,20 @@
 import React from 'react';
-import style from './Mypost.module.css';
+import s from './Mypost.module.css';
 import Post from './Post/Post';
 
 
 let Mypost = () => {
   return (
-      <div className={style.item}>
+      <div className={s.item}>
         my post
         <div>
        <textarea></textarea>
        <button>Добавить</button>
        </div>
-       <div className={style.Post}>
-         <Post massage='Hi, Pidor' />
-         <Post massage='LoL'/>
-         <Post massage='her'/>
+       <div className={s.Post}>
+         <Post massage='Hi, Pidor' LikesCount='😍2' />
+         <Post massage='LoL' LikesCount='😍5'/>
+         <Post massage='her' LikesCount='😍0'/>
        </div>
       </div>
   )
