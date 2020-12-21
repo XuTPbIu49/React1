@@ -22,5 +22,4 @@ let Navigations = () =>{
       </nav>
     );
 }
-
 export default Navigations;

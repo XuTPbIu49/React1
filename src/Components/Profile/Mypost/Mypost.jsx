@@ -1,25 +1,23 @@
 import React from 'react';
 import style from './Mypost.module.css';
+import Post from './Post/Post';
 
 
 let Mypost = () => {
   return (
       <div className={style.item}>
         my post
-       <div className={style.item}>
-          newpost
+        <div>
+       <textarea></textarea>
+       <button>Добавить</button>
+       </div>
+       <div className={style.Post}>
+         <Post massage='Hi, Pidor' />
+         <Post massage='LoL'/>
+         <Post massage='her'/>
+       </div>
       </div>
-      <div className={style.item}>
-        post1
-      </div>
-      <div className={style.item}>
-        post2
-      </div>
-      <div className={style.item}>
-        post3
-      </div>
-      </div>
-  );
+  )
 }
 
 export default Mypost;

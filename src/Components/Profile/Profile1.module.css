@@ -3,7 +3,6 @@
   background-color: rgb(217, 228, 240);
   border-radius: 10px;
 }
-
 .InfoProfile {
   grid-template-areas:
    "a I";
@@ -11,15 +10,12 @@
   grid-template-columns: 12% 5fr;
   margin-top: 20px;
   border: 3px bisque;
-  border-radius: 6px;
-  
+  border-radius: 6px;  
 }
-
 .InfoUser {
   grid-area: I;
   background-color: coral;
 }
-
 .bar {  
   background-size: cover;
   background-position: center center;
