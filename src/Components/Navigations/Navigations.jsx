@@ -5,19 +5,19 @@ let Navigations = () =>{
     return (
         <nav className={s.nav}>
         <div>
-         <a href="">Профиль</a>
+         <a href="/Profile">Профиль</a>
         </div>
         <div>
-         <a href="">Сообщения</a>
+         <a href="/Dialogs">Сообщения</a>
         </div>
         <div>
-         <a href="">Музыка</a>
+         <a href="Music">Музыка</a>
         </div>
         <div>
-         <a href="">Видео</a>
+         <a href="Video">Видео</a>
         </div>
         <div>
-         <a href="">Новости</a>
+         <a href="News">Новости</a>
         </div>
       </nav>
     );
