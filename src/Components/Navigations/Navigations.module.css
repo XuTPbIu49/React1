@@ -1,10 +1,19 @@
 .nav {
     grid-area: n;
-    background-color: rgb(78, 136, 133);
+    background-color: rgb(176, 224, 230);
+    padding: 25px;
     min-height: 90vh;
     margin-left: 10px;
     border-radius: 8px;
-  }
-  .nav a {
-    
-  }
+    font-size: 20px;
+}
+
+.nav a {
+    color: DarkSlateGrey;
+    text-decoration: none;
+
+}
+
+.nav a.active{
+    color: black;
+}

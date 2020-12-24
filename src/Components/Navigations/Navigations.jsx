@@ -1,23 +1,24 @@
 import React from 'react';
 import s from './Navigations.module.css';
+import {NavLink} from "react-router-dom";
 
 let Navigations = () =>{
     return (
         <nav className={s.nav}>
         <div>
-         <a href="/Profile">Профиль</a>
+         <NavLink to="/Profile" activeClassName={s.active}>Профиль</NavLink>
         </div>
         <div>
-         <a href="/Dialogs">Сообщения</a>
+         <NavLink to="/Dialogs" activeClassName={s.active}>Сообщения</NavLink>
         </div>
         <div>
-         <a href="Music">Музыка</a>
+         <NavLink to="Music" activeClassName={s.active}>Музыка</NavLink>
         </div>
         <div>
-         <a href="Video">Видео</a>
+         <NavLink to="Video" activeClassName={s.active}>Видео</NavLink>
         </div>
         <div>
-         <a href="News">Новости</a>
+         <NavLink to="News" activeClassName={s.active}>Новости</NavLink>
         </div>
       </nav>
     );

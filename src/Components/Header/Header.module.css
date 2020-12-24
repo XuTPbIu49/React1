@@ -1,6 +1,6 @@
 .header {
     grid-area: h;
-    background-color: rgb(86, 216, 86);
+    background-color: rgb(135, 206, 250);
     margin-left: 10px;
     margin-top: 5px;
   
@@ -8,5 +8,6 @@
     border-radius: 5px;
   }
   .header img {
-    width: 75px;
+    width: 70px;
+      margin-left: 30px;
   }
