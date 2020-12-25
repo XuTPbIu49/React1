@@ -20,11 +20,11 @@ function App() {
             <Header/>
             <Navigations/>
             <div className='app-gur-content'>
-                <Route path='/Profile' component={Profile}/>
-                <Route /*exact*/ path='/Dialogs' component={Dialogs}/>
-                <Route path='/Music' component={Music}/>
-                <Route path='/Video' component={Video}/>
-                <Route path='/News' component={News}/>
+                <Route path='/profile' component={Profile}/>
+                <Route /*exact*/ path='/dialogs' component={Dialogs}/>
+                <Route path='/music' component={Music}/>
+                <Route path='/video' component={Video}/>
+                <Route path='/news' component={News}/>
             </div>
         </div>
         </BrowserRouter>
