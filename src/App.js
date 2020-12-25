@@ -21,7 +21,7 @@ function App() {
             <Navigations/>
             <div className='app-gur-content'>
                 <Route path='/Profile' component={Profile}/>
-                <Route path='/Dialogs' component={Dialogs}/>
+                <Route /*exact*/ path='/Dialogs' component={Dialogs}/>
                 <Route path='/Music' component={Music}/>
                 <Route path='/Video' component={Video}/>
                 <Route path='/News' component={News}/>

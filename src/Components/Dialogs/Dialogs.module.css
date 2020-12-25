@@ -1,0 +1,22 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+.dialogsItem {
+    margin: auto;
+font-size: xx-large;
+padding: 10px;
+}
+.dialog a{
+    color: black;
+    text-decoration: none;
+}
+.dialog a.active{
+    color: DeepSkyBlue;
+}
+.massages {
+    padding: 10px;
+    font-size: xx-large;
+    background-color: WhiteSmoke;
+    border-radius: 10px;
+}

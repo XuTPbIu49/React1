@@ -1,3 +1,23 @@
-.Post {
-    
+.addpost{
+    font-size: 30px;
+}
+.addpost textarea{
+    height: 80px;
+    width: 550px;
+}
+.addpost h4{
+    color: DarkCyan;
+    margin: auto;
+}
+.Post{
+    margin-top: 20px;
+}
+.addpost button{
+    margin-left: 85%;
+    border-radius: 40px;
+    background-color: PaleTurquoise;
+    width: 75px;
+    height: 32px;
+    font-family: "Comic Sans MS";
+    font-weight: bold;
 }
