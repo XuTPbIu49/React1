@@ -1,6 +1,11 @@
 .InfoProfile {
     display: grid;
+<<<<<<< Updated upstream
     grid-template-rows: 290px 1fr 3fr;
+=======
+    grid-template-rows: 290px 1fr 1fr;
+/*    grid-template-rows: 290px 150px 200px;*/
+>>>>>>> Stashed changes
     grid-template-columns: 1fr 6fr;
     margin-left: 20px;
 }
@@ -13,12 +18,15 @@
     height: 100%;
     border-radius: 9px;
 }
+<<<<<<< Updated upstream
 .posts {
     grid-column-start: 2;
     grid-row-start: 3;
     padding: 10px;
     background-color: LightCyan;
 }
+=======
+>>>>>>> Stashed changes
 .avatar {
     grid-column-start: 1;
     grid-column-end: 1;
@@ -32,6 +40,7 @@
 }
 .InfoUser {
     grid-column-start: 2;
+<<<<<<< Updated upstream
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 2;
@@ -43,7 +52,21 @@
 .info {
     grid-column-start: 2;
     grid-column-end: 3;
+=======
+    grid-row-start: 3;
+    padding: 10px;
+>>>>>>> Stashed changes
     background-color: LightCyan;
+}
+.InfoUser {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    display: flex;
+    /*display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 3fr 1fr;*/
 }
 .UserName {
     grid-column-start: 1;
@@ -53,3 +76,11 @@
     font-weight: bold;
     font-family: "tahoma";
 }
+.info {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: LightCyan;
+}
+
+
+

@@ -16,7 +16,7 @@ const Profile = () => {
                         Имя Пользователя
                     </div>
                     <div className={s.info}>
-                        Информация!
+                        info
                     </div>
                 </div>
                 <div className={s.posts}>
