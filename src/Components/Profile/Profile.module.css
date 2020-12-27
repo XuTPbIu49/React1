@@ -1,6 +1,6 @@
 .InfoProfile {
     display: grid;
-    grid-template-rows: 290px 150px;
+    grid-template-rows: 290px 1fr 3fr;
     grid-template-columns: 1fr 6fr;
     margin-left: 20px;
 }
@@ -13,18 +13,10 @@
     height: 100%;
     border-radius: 9px;
 }
-.InfoUser {
+.posts {
     grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 2;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 2fr 1fr 2fr;
-}
-.info {
-    grid-column-start: 2;
-    grid-column-end: 3;
+    grid-row-start: 3;
+    padding: 10px;
     background-color: LightCyan;
 }
 .avatar {
@@ -38,10 +30,19 @@
     height: 150px;
     border-radius: 6px;
 }
-.posts {
+.InfoUser {
     grid-column-start: 2;
+    grid-column-end: 3;
     grid-row-start: 2;
-    padding: 10px;
+    grid-row-end: 2;
+    display: flex;
+/*    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 2fr 1fr 2fr;*/
+}
+.info {
+    grid-column-start: 2;
+    grid-column-end: 3;
     background-color: LightCyan;
 }
 .UserName {

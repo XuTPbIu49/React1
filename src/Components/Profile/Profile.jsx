@@ -15,12 +15,12 @@ const Profile = () => {
                     <div className={s.UserName}>
                         Имя Пользователя
                     </div>
-                    <div className={s.posts}>
-                        <Mypost/>
-                    </div>
                     <div className={s.info}>
                         Информация!
                     </div>
+                </div>
+                <div className={s.posts}>
+                    <Mypost/>
                 </div>
             </div>
         </div>

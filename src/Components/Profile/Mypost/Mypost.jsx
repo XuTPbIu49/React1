@@ -17,7 +17,7 @@ let Mypost = () => {
                     </div>
                 </div>
             </div>
-            <div className={s.Post}>
+            <div className={s.post}>
                 <Post massage='Hi, Pidor' LikesCount='😍2'/>
                 <Post massage='LoL' LikesCount='😍5'/>
                 <Post massage='her' LikesCount='😍0'/>

@@ -1,16 +1,15 @@
+.item {
+}
 .addpost{
     font-size: 30px;
 }
 .addpost textarea{
-    height: 80px;
-    width: 550px;
+    height: 90px;
+    width: 100%;
 }
 .addpost h4{
     color: DarkCyan;
     margin: auto;
-}
-.Post{
-    margin-top: 20px;
 }
 .addpost button{
     margin-left: 85%;
@@ -20,4 +19,7 @@
     height: 32px;
     font-family: "Comic Sans MS";
     font-weight: bold;
+}
+.post{
+    margin-top: 20px;
 }
