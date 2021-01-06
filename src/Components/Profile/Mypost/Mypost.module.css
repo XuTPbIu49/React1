@@ -1,4 +1,5 @@
 .item {
+
 }
 .addpost{
     font-size: 30px;
@@ -12,13 +13,14 @@
     margin: auto;
 }
 .addpost button{
-    margin-left: 85%;
+
+/*    margin-left: 85%;
     border-radius: 40px;
     background-color: PaleTurquoise;
     width: 75px;
     height: 32px;
     font-family: "Comic Sans MS";
-    font-weight: bold;
+    font-weight: bold;*/
 }
 .post{
     margin-top: 20px;
