@@ -24,8 +24,6 @@
     font-family: "tahoma";
 }
 .posts {
-    grid-column-start: 2;
-    grid-row-start: 3;
     padding: 10px;
     background-color: LightCyan;
 }
