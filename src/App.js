@@ -11,22 +11,24 @@ import News from "./Components/News/News";
 import Video from "./Components/Video/Video";
 
 
-
-
 function App() {
     return (
         <BrowserRouter>
-        <div className='app-gur'>
-            <Header/>
-            <Navigations/>
-            <div className='app-gur-content'>
-                <Route path='/profile' component={Profile}/>
-                <Route /*exact*/ path='/dialogs' component={Dialogs}/>
-                <Route path='/music' component={Music}/>
-                <Route path='/video' component={Video}/>
-                <Route path='/news' component={News}/>
+            <div className='app-wrapper'>
+                <div className="app-wrapper-head">
+                    <Header/>
+                    <div className="app-wrapper-navi">
+                        <Navigations/>
+                        <div className='app-wrapper-content'>
+                            <Route path='/profile' component={Profile}/>
+                            <Route /*exact*/ path='/dialogs' component={Dialogs}/>
+                            <Route path='/music' component={Music}/>
+                            <Route path='/video' component={Video}/>
+                            <Route path='/news' component={News}/>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
         </BrowserRouter>
     );
 }

@@ -1,19 +1,28 @@
-.app-gur {
-    display: grid;
-/*    justify-items: stretch;*/
-    margin: 0 auto;
-    margin-right: 10px;
-    grid-template-areas:
-    "h  h"
-    "n  c";
-
-    grid-template-rows: 81px 1fr;
-    grid-template-columns: 1fr 10fr;
-    grid-gap: 10px;
+.app-wrapper {
+    display: flex;
+    flex-basis: auto;
+    flex-direction: row;
+    background-color: lightgray;
+}
+.app-wrapper-head{
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+/*    align-self: stretch;*/
+    flex-basis: 100%;height: 100%;
 }
 
-.app-gur-content {
-    grid-area: c;
+.app-wrapper-navi{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    margin-top: 5px;
+}
+
+.app-wrapper-content {
+    flex: 2;
+    flex-basis: 100%;height: 100%;
+    margin-left: 10px;
     background-color: rgb(240, 255, 255);
     border-radius: 10px;
 
