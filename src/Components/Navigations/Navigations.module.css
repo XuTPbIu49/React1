@@ -4,6 +4,10 @@
     border-radius: 8px;
     font-size: 20px;
 }
+.nav img {
+    width: 15px;
+    margin-right: 5px;
+}
 .nav div{
     margin-top: 10px;
 }

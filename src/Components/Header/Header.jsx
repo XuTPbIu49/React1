@@ -1,10 +1,11 @@
 import React from 'react';
 import s from './Header.module.css';
+import logo from "../../im/logo.png";
 
 let Header = () => {
     return (
         <header className={s.header}>
-            <img src="https://avatanplus.com/files/resources/original/5e811d3cd2742171285a35be.png"/>
+            <img src={logo}/>
         </header>
     );
 }

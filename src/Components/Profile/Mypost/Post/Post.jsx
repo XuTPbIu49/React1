@@ -1,11 +1,11 @@
 import React from 'react';
 import s from './Post.module.css';
-
+import defavatar from "../../../../im/avatar.jpg";
 
 const Post = (props) => {
   return (    
       <div className={s.item}>
-        <img src='http://www.youloveit.ru/uploads/posts/2020-04/1586360559_youloveit_ru_dipper_gravity_falls_na_avu13.jpg'/>
+        <img src={defavatar}/>
         {props.massage}
         <div>
           <span>Like</span> {props.LikesCount}

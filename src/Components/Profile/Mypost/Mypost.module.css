@@ -30,7 +30,6 @@ display: flex;
     font-size: 18px;
     font-weight: 300;
     color: white;
-    box-shadow: 0 16px 32px 0 rgba(0, 40, 120, .35);
     transition: .5s;
 }
 .addpost button:hover {
@@ -39,4 +38,6 @@ display: flex;
 }
 .post {
     margin-top: 20px;
+    padding: 10px;
+    background-color: LightCyan;
 }
